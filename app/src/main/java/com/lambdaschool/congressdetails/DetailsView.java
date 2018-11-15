@@ -11,7 +11,8 @@ import com.lambdaschool.congressdataapiaccess.CongresspersonDetails;
 
 public class DetailsView extends AppCompatActivity {
 
-        TextView                        twitterHandle;
+    public static final String CONGRESS_ID = "CongressId";
+    TextView                        twitterHandle;
         CongressPersonDetailsViewModel  viewModel;
 
     @Override
@@ -21,7 +22,7 @@ public class DetailsView extends AppCompatActivity {
 
         twitterHandle = findViewById(R.id.twitter_view);
 
-        String id = getIntent().getStringExtra("CongressId");
+        String id = getIntent().getStringExtra(CONGRESS_ID);
 
         viewModel = ViewModelProviders.of(this).get(CongressPersonDetailsViewModel.class);
         viewModel.getDetails(id).observe(this, new Observer<CongresspersonDetails>() {

@@ -6,6 +6,24 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+
+    </style>    <!-- Base application theme. -->
+    <style name="AppThemeBlue" parent="AppTheme">
+        <item name="name_text_size">20sp</item>
+        <item name="twitter_text_size">15sp</item>
+        <item name="twitter_text_style">bold</item>
+        <item name="colorPrimary">@android:color/holo_blue_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_blue_dark</item>
+        <item name="colorAccent">@android:color/holo_blue_bright</item>
+    </style>
+    <style name="AppThemeRed" parent="AppTheme">
+        <item name="name_text_size">20sp</item>
+        <item name="twitter_text_size">15sp</item>
+        <item name="twitter_text_style">bold</item>
+        <item name="colorPrimary">@android:color/holo_red_light</item>
+        <item name="colorPrimaryDark">@android:color/holo_red_dark</item>
+        <item name="colorAccent">@android:color/holo_red_dark</item>
     </style>
 
 </resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--<dimen name="card_background_color_red">@android:color/holo_red_dark</dimen>-->
+    <!--<dimen name="card_background_color_blue">@android:color/holo_blue_dark</dimen>-->
+    <dimen name="name_text_size_red">20sp</dimen>
+    <dimen name="name_text_size_blue">20sp</dimen>
+    <!--<dimen name="name_text_color_red">@android:color/holo_red_light</dimen>-->
+    <!--<dimen name="name_text_color_blue">@android:color/holo_blue_dark</dimen>-->
+    <!--<dimen name="twitter_text_color_red">@android:color/holo_red_light</dimen>-->
+    <!--<dimen name="twitter_text_color_blue">@android:color/holo_blue_dark</dimen>-->
+    <dimen name="twitter_text_size_red">15sp</dimen>
+    <dimen name="twitter_text_size_blue">15sp</dimen>
+    <dimen name="twitter_text_style_red">bold</dimen>
+    <dimen name="twitter_text_style_blue">bold</dimen>
+</resources>
